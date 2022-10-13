@@ -1,18 +1,16 @@
 package br.com.assessments.pubsub;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Objects;
-import java.util.Set;
-
+import br.com.assessments.pubsub.api.Subscriber;
+import br.com.assessments.pubsub.core.DefaultPublisher;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import br.com.assessments.pubsub.api.Subscriber;
-import br.com.assessments.pubsub.core.DefaultPublisher;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Set;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
  * Publisher Tester
